@@ -27,13 +27,13 @@ If someone wishes to start a community of their own, this is free marketing for 
 
 - Simple & Easy Views Design : Use of familiar audience EditText with hints and interactive buttons made it easier for students to register or sign in without providing any detailed instructions pages. Apps also uses App Navigation to switch between different screens.
 
--Navigation: To navigate between the screens and fragments where we will show our some favorite events
+- Navigation: To navigate between the screens and fragments where we will show our some favorite events
 
 - RecyclerView : To present the list of different clubs we used the efficient recyclerview.
 
 - LiveData & Room Database : We are also using LiveData to update & observe any changes or additions in events of any club.
 
--Volley : Used to fetch data fron internet using API's
+- Volley : Used to fetch data fron internet using API's
 
 <b> Application Link & Future Scope : </b>
 
