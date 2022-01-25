@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="40dp"
+    android:paddingHorizontal="40dp"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Event"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:id="@+id/text"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/text"
+        android:id="@+id/club_id"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="12dp"
+        android:background="@drawable/editext_bg"
+        android:hint="Enter Club Id"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/club_id"
+        android:id="@+id/club_pass"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="12dp"
+        android:background="@drawable/editext_bg"
+        android:hint="Password"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/club_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="15dp"
+        android:textSize="21sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btnback"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
